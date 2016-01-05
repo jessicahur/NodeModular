@@ -1,4 +1,4 @@
-var assert = require('assert');
+var assert = require('chai').assert;
 var spawnSync = require('child_process').spawnSync;
 var greeting = require('../printGreeting.js');
 
